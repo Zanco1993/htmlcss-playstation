@@ -9,6 +9,10 @@
     color: rgb(165, 165, 165);
 }
 
+.col-white {
+    color: #fff;
+}
+
 .size-text {
     font-size: 50px;
 }
@@ -28,6 +32,12 @@
     opacity: 0.8;
     background-color: rgb(208, 208, 208);
 }
+
+.buttons-3 {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;}
 
 /* -----------------------nav------------------ */
 
@@ -149,4 +159,39 @@ nav li {
 
 .playstation-plus img {
     width: 100%;
+}
+
+/* discount-play */
+
+.discount-play img {
+    width: 100%;
+}
+
+.discount-play p {
+    font-size: 20px;
+}
+
+/* avengers */
+.avengers {
+    background-color: rgb(26,37,89);
+}
+
+.avengers .content-image img {
+    width: 60%;
+}
+
+.avengers img {
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    
+    .playstation-plus .content-ps-plus, .avengers .content-avengers{
+        display: none;
+    }
+
+    
 }
