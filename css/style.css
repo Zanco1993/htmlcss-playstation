@@ -1,9 +1,9 @@
-.content-image {
+.brand {
    background-color: black;
    height: 40px;
 }
 
-.content-image img {
+.brand img {
     width: 100px;
     padding: 10px 0;
 }
@@ -22,4 +22,22 @@ nav li {
 .fas.fa-search {
     font-size: 26px;
     padding-top: 5px;
+}
+
+.jumbotron {
+    height: 700px;
+    background: url("../img/jumbo-bg.png") center;
+    position: relative;
+    background-size: cover;
+}
+
+.box-inner-jumbo {
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.box-inner-jumbo img {
+    width: 300px;
 }
