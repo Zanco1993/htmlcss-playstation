@@ -1,3 +1,15 @@
+
+.back-image {
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* -----------------------nav------------------ */
+
+
 .brand {
    background-color: black;
    height: 40px;
@@ -24,20 +36,58 @@ nav li {
     padding-top: 5px;
 }
 
+
+/* -----------------------jumbotron------------------ */
+
 .jumbotron {
-    height: 700px;
-    background: url("../img/jumbo-bg.png") center;
-    position: relative;
-    background-size: cover;
+    background-image: url("../img/jumbo-bg.png");
 }
 
-.box-inner-jumbo {
-    color: white;
-    position: absolute;
-    bottom: 50px;
-    left: 20px;
+.box-inner-jumbo{
+    color: white; 
+    padding-top: 350px;
+
 }
 
-.box-inner-jumbo img {
+.box-inner-jumbo img, .box-inner-take-two img{
     width: 300px;
+}
+
+/* -----------------------lista play------------------ */
+
+
+.lista-play .box-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* info-play */
+
+.info-play span {
+    font-size: small;
+    color: lightskyblue;
+}
+
+.info-play p {
+    color: rgb(165, 165, 165);
+}
+
+.info-play h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info-play img {
+    width: 100%;
+}
+
+/* --------------------jumbo take two---------------- */
+
+.take-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.box-inner-take-two {
+    color: white;
+    padding-top: 150px;
 }
