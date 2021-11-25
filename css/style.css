@@ -1,0 +1,25 @@
+.content-image {
+   background-color: black;
+   height: 40px;
+}
+
+.content-image img {
+    width: 100px;
+    padding: 10px 0;
+}
+
+.buttons {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.fas.fa-search {
+    font-size: 26px;
+    padding-top: 5px;
+}
