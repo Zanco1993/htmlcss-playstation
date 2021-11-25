@@ -1,4 +1,3 @@
-
 .back-image {
     height: 700px;
     background-position: center;
@@ -6,6 +5,29 @@
     position: relative;
 }
 
+.col-grey {
+    color: rgb(165, 165, 165);
+}
+
+.size-text {
+    font-size: 50px;
+}
+
+.buttons {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.buttons-2 {
+    padding: 5px 10px;
+    color: blue;
+    border-radius: 20px;
+    border: none;
+    opacity: 0.8;
+    background-color: rgb(208, 208, 208);
+}
 
 /* -----------------------nav------------------ */
 
@@ -20,12 +42,7 @@
     padding: 10px 0;
 }
 
-.buttons {
-    padding: 5px 10px;
-    color: white;
-    border-radius: 20px;
-    border: none;
-}
+
 
 nav li {
     margin: 0 10px;
@@ -45,15 +62,17 @@ nav li {
 
 .box-inner-jumbo{
     color: white; 
-    padding-top: 350px;
-
+    position: absolute;
+    left: 70px;
+    bottom: 100px;
+    width: 380px;
 }
 
 .box-inner-jumbo img, .box-inner-take-two img{
     width: 300px;
 }
 
-/* -----------------------lista play------------------ */
+/* -----------------------info play------------------ */
 
 
 .lista-play .box-image img {
@@ -68,12 +87,7 @@ nav li {
     color: lightskyblue;
 }
 
-.info-play p {
-    color: rgb(165, 165, 165);
-}
-
 .info-play h3 {
-    font-size: 32px;
     margin-bottom: 20px;
 }
 
@@ -88,8 +102,11 @@ nav li {
 }
 
 .box-inner-take-two {
-    color: white;
-    padding-top: 150px;
+    color: white; 
+    position: absolute;
+    left: 70px;
+    bottom: 100px;
+    width: 380px;
 }
 
 /* --------------------Nuove uscite---------------- */
@@ -108,4 +125,28 @@ nav li {
 
 .new-drop .content-image p {
     font-size: 15px;
+}
+
+/* explorer play */
+
+.inner-explorer-play img {
+    width: 100%;
+}
+
+.inner-explorer-play p {
+    font-size: 20px;
+}
+
+/* playstation plus */
+
+.playstation-plus {
+    background-color: rgb(167, 167, 167);
+}
+
+.playstation-plus .content-image img {
+    width: 60%;
+}
+
+.playstation-plus img {
+    width: 100%;
 }
