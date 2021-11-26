@@ -41,6 +41,11 @@
 /* -----------------------utility------------------ */
 /* -----------------------nav------------------ */
 
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+}
 
 .brand {
    background-color: black;
@@ -68,6 +73,10 @@ nav li {
 
 .jumbotron {
     background-image: url("../img/jumbo-bg.png");
+}
+
+main {
+    padding-top: 85px;
 }
 
 .box-inner-jumbo{
