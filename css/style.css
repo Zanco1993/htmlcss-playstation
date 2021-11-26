@@ -205,7 +205,40 @@ nav li {
     width: 100%;
 }
 
+/* --------------------------------footer--------------------------*/
 
+footer {
+    background-color: royalblue;
+}
+
+footer .logo-play{
+    width: 100px;
+   
+}
+
+.language-globe {
+    width: 40px;
+}
+
+
+
+.country-text span{
+    padding-left: 10px;    
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+}
+
+footer .sony-interactive img {
+    width: 150px;
+    margin-bottom: 10px;
+} 
+
+footer .sony-interactive {
+    color: white;
+}
 
 
 
