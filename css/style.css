@@ -159,6 +159,7 @@ nav li {
 
 .playstation-plus img {
     width: 100%;
+    object-fit: cover;
 }
 
 /* discount-play */
@@ -187,11 +188,11 @@ nav li {
 
 
 
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
     
     .playstation-plus .content-ps-plus, .avengers .content-avengers{
         display: none;
     }
 
     
-}
+} */
