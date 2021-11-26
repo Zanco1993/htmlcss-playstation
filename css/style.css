@@ -184,6 +184,31 @@ nav li {
 }
 
 
+/* box-social */
+.social-container {
+    padding: 100px 0;
+}
+
+.inner-social-container {
+    width: 60%;
+}
+
+.social-container h3 {
+    font-size: 55px;
+}
+
+.box-social {
+    width: 100%;
+}
+
+.box-social img{
+    width: 100%;
+}
+
+
+
+
+
 
 
 /* @media screen and (max-width: 991px) {
