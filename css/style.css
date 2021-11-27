@@ -95,10 +95,12 @@ main {
 .lista-play .box-image img {
     width: 100%;
     border-radius: 20px;
+    transition: 0.5s;
 }
 
 .lista-play .box-image img:hover {
-
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-1em); 
 }
 
 .blue-outline {
@@ -117,6 +119,15 @@ main {
 
 .info-play img {
     width: 100%;
+}
+
+.info-play .content-image .blur{
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+.info-play .content-image .blur:hover {
+    opacity: 1;
 }
 
 /* --------------------jumbo take two---------------- */
