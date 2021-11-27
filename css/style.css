@@ -20,7 +20,6 @@
     padding: 5px 10px;
     color: white;
     border-radius: 20px;
-    border: none;
 }
 
 .buttons-2 {
@@ -35,8 +34,10 @@
 .buttons-3 {
     padding: 5px 10px;
     border-radius: 20px;
-    border: none;
-    background-color: #fff;}
+    background-color: #fff;
+}
+
+
 
 /* -----------------------utility------------------ */
 /* -----------------------nav------------------ */
@@ -88,7 +89,7 @@ main {
     width: 60%;
 }
 
-/* -----------------------info play------------------ */
+/* -----------------------lista play------------------ */
 
 
 .lista-play .box-image img {
@@ -96,7 +97,14 @@ main {
     border-radius: 20px;
 }
 
-/* info-play */
+.lista-play .box-image img:hover {
+
+}
+
+.blue-outline {
+    outline: 3px solid blue;
+    padding: 3px;
+}
 
 .info-play span {
     font-size: small;
