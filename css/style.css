@@ -17,9 +17,10 @@
 }
 
 .buttons {
-    padding: 5px 10px;
-    color: white;
     border-radius: 20px;
+    padding: 3px 6px;
+    color: white;
+    transition: 0.5s;
 }
 
 .buttons-2 {
@@ -29,12 +30,24 @@
     border: none;
     opacity: 0.8;
     background-color: rgb(208, 208, 208);
+
 }
 
 .buttons-3 {
     padding: 5px 10px;
     border-radius: 20px;
     background-color: #fff;
+}
+
+.border-button:hover{
+    outline: 3px solid black;
+    border-radius: 20px;
+
+}
+
+ul img {
+    width: 100%;
+
 }
 
 
@@ -44,8 +57,6 @@
 
 header {
     width: 100%;
-    position: fixed;
-    z-index: 1001;
 }
 
 .brand {
@@ -58,7 +69,13 @@ header {
     padding: 10px 0;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 108, 176);
+}
 
 nav li {
     margin: 0 10px;
