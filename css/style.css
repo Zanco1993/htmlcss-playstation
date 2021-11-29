@@ -1,6 +1,6 @@
 .back-image {
     height: 700px;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .buttons {
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 3px 6px;
     color: white;
     transition: 0.5s;
@@ -26,22 +26,19 @@
 .buttons-2 {
     padding: 5px 10px;
     color: blue;
-    border-radius: 20px;
-    border: none;
+    border-radius: 40px;
     opacity: 0.8;
     background-color: rgb(208, 208, 208);
-
 }
 
 .buttons-3 {
     padding: 5px 10px;
-    border-radius: 20px;
+    border-radius: 40px;
     background-color: #fff;
 }
 
-.border-button:hover{
-    outline: 3px solid black;
-    border-radius: 20px;
+a.btn:hover{
+    box-shadow: inset 0 0 0 2px #000;
 
 }
 
@@ -50,10 +47,10 @@ ul img {
 
 }
 
-
-
 /* -----------------------utility------------------ */
-/* -----------------------nav------------------ */
+
+
+/* ----------------------- nav ------------------ */
 
 header {
     width: 100%;
@@ -87,7 +84,7 @@ nav li {
 }
 
 
-/* -----------------------jumbotron------------------ */
+/* ----------------------- jumbotron ------------------ */
 
 .jumbotron {
     background-image: url("../img/jumbo-bg.png");
@@ -106,7 +103,7 @@ main {
     width: 60%;
 }
 
-/* -----------------------lista play------------------ */
+/* ----------------------- lista play ------------------ */
 
 
 .lista-play .box-image img {
@@ -116,12 +113,12 @@ main {
 }
 
 .lista-play .box-image img:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    box-shadow: 0 0.5em 0.5em -0.4em;
     transform: translateY(-1em); 
 }
 
 .blue-outline {
-    outline: 3px solid blue;
+    border: 3px solid blue;
     padding: 3px;
 }
 
@@ -180,7 +177,7 @@ main {
     font-size: 15px;
 }
 
-/* explorer play */
+/* ------------------- explorer play --------------------- */
 
 .inner-explorer-play img {
     width: 100%;
@@ -190,7 +187,7 @@ main {
     font-size: 20px;
 }
 
-/* playstation plus */
+/* -------------------- playstation plus ------------------------ */
 
 .playstation-plus {
     background-color: rgb(167, 167, 167);
@@ -215,7 +212,7 @@ main {
     font-size: 20px;
 }
 
-/* avengers */
+/* ----------------------- avengers ------------------------ */
 .avengers {
     background-color: rgb(26,37,89);
 }
@@ -228,22 +225,13 @@ main {
     width: 100%;
 }
 
-
-/* box-social */
+/*  ------------------------- box-social ----------------------*/
 .social-container {
     padding: 100px 0;
 }
 
 .inner-social-container {
     width: 60%;
-}
-
-.social-container h3 {
-    font-size: 55px;
-}
-
-.box-social {
-    width: 100%;
 }
 
 .box-social img{
@@ -257,15 +245,12 @@ footer {
 }
 
 footer .logo-play{
-    width: 100px;
-   
+    width: 100px;   
 }
 
 .language-globe {
     width: 40px;
 }
-
-
 
 .country-text span{
     padding-left: 10px;    
@@ -281,9 +266,6 @@ footer .sony-interactive img {
     margin-bottom: 10px;
 } 
 
-footer .sony-interactive {
-    color: white;
-}
 
 
 
